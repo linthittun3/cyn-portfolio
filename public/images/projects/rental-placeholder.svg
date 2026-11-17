@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Smart Rental Revenue Classifier</title>
+  <desc id="desc">Project preview placeholder for a machine learning project.</desc>
+  <rect width="1200" height="700" fill="#fceef2"/>
+  <path d="M150 520h900" stroke="#e9a5b8" stroke-width="3"/>
+  <rect x="210" y="320" width="120" height="200" rx="18" fill="#e9a5b8"/>
+  <rect x="410" y="240" width="120" height="280" rx="18" fill="#d86b91"/>
+  <rect x="610" y="150" width="120" height="370" rx="18" fill="#a84469"/>
+  <path d="m820 440 70-90 70 40 90-150" fill="none" stroke="#292329" stroke-width="8"/>
+  <text x="80" y="100" fill="#292329" font-family="Arial, sans-serif" font-size="38" font-weight="700">SMART RENTAL REVENUE</text>
+  <text x="80" y="148" fill="#81747c" font-family="Arial, sans-serif" font-size="24">Machine learning · classification · insights</text>
+</svg>

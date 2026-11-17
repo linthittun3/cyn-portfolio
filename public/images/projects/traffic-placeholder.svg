@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Traffic Monitoring and Speed Analysis</title>
+  <desc id="desc">Project preview placeholder for a computer vision project.</desc>
+  <rect width="1200" height="700" fill="#fceef2"/>
+  <path d="M0 560h1200" stroke="#e9a5b8" stroke-width="3"/>
+  <path d="M120 560 390 170h250l250 390" fill="none" stroke="#d86b91" stroke-width="8" opacity=".8"/>
+  <circle cx="500" cy="430" r="64" fill="#a84469" opacity=".9"/>
+  <circle cx="760" cy="430" r="44" fill="#d86b91" opacity=".8"/>
+  <text x="80" y="110" fill="#292329" font-family="Arial, sans-serif" font-size="38" font-weight="700">TRAFFIC MONITORING</text>
+  <text x="80" y="158" fill="#81747c" font-family="Arial, sans-serif" font-size="24">Computer vision · detection · tracking</text>
+</svg>
