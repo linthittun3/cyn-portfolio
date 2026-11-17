@@ -12,7 +12,8 @@ export const skillGroups = [
 export const certifications = [
   { title: "Data Analytics with Databricks and Power BI Workshop 2024", organization: "Adastra", issued: "May 2024", image: "/images/certificates/adastra.jpg", skill: "Data analytics" },
   { title: "Oracle Academy Java Foundation", organization: "Oracle", issued: "January 2026", image: "/images/certificates/oracle.jpg", skill: "Java" },
-  { title: "AWS Academy Graduate - Cloud Foundations - Training Badge", organization: "AWS Academy", issued: "June 2026", image: "/images/certificates/aws-cloud.jpg", skill: "Cloud foundations" }
+  { title: "AWS Academy Graduate - Cloud Foundations - Training Badge", organization: "AWS Academy", issued: "June 2026", image: "/images/certificates/aws-cloud.jpg", skill: "Cloud foundations" },
+  { title: "Certificate of Appreciation - NextGen Scholarship Programme", organization: "Global Unichoice International", issued: "November 2026", image: "/images/certificates/global-unichoice-international.jpg", skill: "Volunteer service" }
 ];
 
 export const projects = [

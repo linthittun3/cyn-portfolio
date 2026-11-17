@@ -20,4 +20,8 @@ button, input, textarea { font: inherit; }
 .grid-pattern { background-image: linear-gradient(to right, color-mix(in srgb, var(--line) 45%, transparent) 1px, transparent 1px), linear-gradient(to bottom, color-mix(in srgb, var(--line) 45%, transparent) 1px, transparent 1px); background-size: 38px 38px; }
 @media (max-width: 640px) { .container { width: min(100% - 28px, 1160px); } .section { padding: 76px 0; } }
 @media (min-width: 768px) { #projects article:last-child { grid-column: 1 / -1; justify-self: center; width: min(100%, 900px); } #projects article:last-child > div:first-child { aspect-ratio: 2.5; } }
+@media (min-width: 1024px) { #certifications article:last-child { grid-column-start: 2; width: calc(100% + 32px); margin-left: -16px; } }
+@media (min-width: 1024px) { #certifications .grid.gap-5 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1024px) { #certifications article:last-child { width: 100%; margin-left: 0; } }
+footer .container > div:last-child > span:last-child { display: none; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; } }
