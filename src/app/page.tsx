@@ -101,9 +101,13 @@ function Navbar() {
     <header className="fixed inset-x-0 top-0 z-50 px-3 pt-3 sm:px-5">
       <div className="container flex h-[68px] items-center justify-between rounded-2xl border border-[var(--line)] bg-[color-mix(in_srgb,var(--bg)_88%,transparent)] px-4 shadow-[0_8px_30px_rgba(168,68,105,.08)] backdrop-blur-xl sm:px-5">
         <a href="#about" className="flex items-center gap-3 font-bold">
-          <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-[var(--ink)] text-sm text-[var(--bg)]">
-            CY
-          </span>
+          <Image
+            src="/icon.svg"
+            alt="Han Su Yin logo"
+            width={36}
+            height={36}
+            className="h-9 w-9 rounded-xl object-cover"
+          />
           <span className="hidden text-sm sm:block">Han Su Yin</span>
         </a>
         <nav className="hidden items-center gap-1 lg:flex">
@@ -772,9 +776,13 @@ function Footer() {
     <footer className="border-t border-[var(--line)] py-8">
       <div className="container flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex items-center gap-3">
-          <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-[var(--ink)] text-xs font-bold text-[var(--bg)]">
-            CY
-          </span>
+          <Image
+            src="/icon.svg"
+            alt="Han Su Yin logo"
+            width={36}
+            height={36}
+            className="h-9 w-9 rounded-xl object-cover"
+          />
           <div>
             <p className="text-sm font-bold">Han Su Yin (Cynthia)</p>
             <p className="text-xs text-[var(--muted)]">

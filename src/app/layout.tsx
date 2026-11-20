@@ -7,7 +7,7 @@ const siteUrl =
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Han Su Yin (Cynthia) | Computer Science Student & Developer",
+    default: "Han Su Yin (Cynthia) | Portfolio",
     template: "%s | Han Su Yin (Cynthia)",
   },
   description:
